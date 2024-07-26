@@ -1,6 +1,6 @@
 <pre>
        _      _                   _
- Root (_) 97 | |  nixton.builder | |   Treed
+ Root (_) 97 | |  nixton.builder | | Nixton Zero
  _ __  ___  _| |_ ___  _ __    __| | _____   __
 | '_ \| \ \/ / __/ _ \| '_ \  / _` |/ _ \ \ / /
 | | | | |>  <| || (_) | | | || (_| |  __/\ V /
