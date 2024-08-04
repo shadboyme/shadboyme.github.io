@@ -1,1 +1,1 @@
-# Nixton Zero / nixtondev
+# Nixton / nixtondev
