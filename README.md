@@ -1,3 +1,4 @@
 # Nixton Cipher / nixtondev
-
-<h1 style="text-algin: center;">Nixton Cipher</h1>
+<center>
+<h1>Nixton Cipher</h1>
+</center>
