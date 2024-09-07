@@ -4,10 +4,31 @@ html{
     font-size: 1em;
 }
 
-body{
-    font-family: Consolas, monaco, monospace;
-    background-color: #123;
-    color: #fff;
+body {
+  font-family: Consolas, monaco, monospace;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  background: url('/assets/imgs/bg/cipher.jpg') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.text-overlay {
+  z-index: 1;
+  color: white;
 }
 
 textarea{
