@@ -42,6 +42,7 @@
 <meta name="twitter:title" content="Nixton Cipher | Sweden" />
 <meta name="twitter:url" content="https://nixton.dev/" />
 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-M6hqLq9U6bw3hZZxZR5UKC6sxi+5foF5Wq2bFtpQ3ziS4z80CfQ9ENfEXSt5C8iX" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="/assets/css/custom.css">
 <script type="text/javascript" src="/assets/js/custom.js"></script>
@@ -65,5 +66,37 @@
       <p class="lead">The home of Technical nerd!</p>
       <p>nixtondev#9325</p>
     </div>
+
+<script>
+function getLast() {
+
+const birthday = 1997;
+const currentYear = new Date().getFullYear();
+const age = currentYear - birthday;
+const lifeEnd = 100;
+const yearsLeft = lifeEnd - age;
+
+document.getElementById("end").textContent = "" + yearsLeft;
+}
+
+getLast();
+
+function getAge(birthDate) {
+
+const today = new Date();
+const birth = new Date(birthDate);
+let age = today.getFullYear() - birth.getFullYear();
+
+if (today < new Date(today.getFullYear(), birth.getMonth(), birth.getDate())) {
+age--;
+}
+
+return age;
+
+}
+
+window.onload = () => document.getElementById("start").textContent = "" + getAge("1997-02-13");
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-ZmQF7XxTa7t4SEjt2KZj4kT8xK4uyxWgncNBt9BRFBgHBrMWLNEIL6dR6cNkePD6" crossorigin="anonymous"></script>
 </body>
 </html>
