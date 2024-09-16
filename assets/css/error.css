@@ -3,7 +3,7 @@ html { height: 100%; }
 body {
 color: #444; 
 margin:0;
-font: normal 14px/20px Arial, Helvetica, sans-serif; 
+font: normal 14px/20px Consolas, monaco, monospace; 
 height:100%; 
 background-color: #fff;
 }
