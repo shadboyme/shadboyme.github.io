@@ -9,12 +9,13 @@ body {
   height: 100vh;
   margin: 0;
   display: flex;
-  background: url('/assets/imgs/bg/cipher.jpg') no-repeat center center fixed;
+  /*background: url('/assets/imgs/bg/cipher.jpg') no-repeat center center fixed;
   background-size: cover;
-  position: relative;
+  position: relative;*/
   align-items: center;
   justify-content: center;
   text-align: center;
+  background-color: #300A24;
 }
 
 .overlay {
