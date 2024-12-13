@@ -5,7 +5,7 @@ html{
 }
 
 body {
+  color: #fff;
+  background-color: #300A24;
   font-family: Consolas, monaco, monospace;
-  height: 100vh;
 }
-
