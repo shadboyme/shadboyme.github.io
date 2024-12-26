@@ -9,3 +9,27 @@ body {
   background-color: #300A24;
   font-family: Consolas, monaco, monospace;
 }
+
+.container {}
+
+.title {
+  text-align: center;
+  letter-spacing: 0.2rem;
+  font-style: italic;
+}
+
+.about {
+  width: 250px;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navlinks {
+  text-align: center;
+}
+
+.pro {
+  text-align: center;
+}
+
