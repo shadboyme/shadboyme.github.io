@@ -33,3 +33,17 @@ body {
   text-align: center;
 }
 
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #8A084B;
+  text-decoration: underline;
+}
+
+.lines {
+  width: 270px;
+}
+
