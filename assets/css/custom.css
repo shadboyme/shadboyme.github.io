@@ -47,3 +47,16 @@ body {
   width: 270px;
 }
 
+.apps{ text-align: center; }
+
+.social{
+  color: #fff;
+  text-decoration: none;
+}
+
+.social:hover{
+  color: #8A084B;
+  text-decoration: none;
+}
+
+.text-center{ text-align: center; }
