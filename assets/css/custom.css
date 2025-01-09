@@ -13,7 +13,7 @@ body {
 }
   
 .container {
-  max-width: 300px; 
+  max-width: 1200px; 
   margin: 0 auto;
   padding: 20px; 
 }
@@ -27,7 +27,7 @@ body {
 }
   
 .about {
-  max-width: 600px; 
+  max-width: 300px; 
   text-align: justify;
   margin: 20px auto; 
   line-height: 1.8; 
