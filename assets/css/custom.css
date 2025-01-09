@@ -1,62 +1,49 @@
-html{ 
-  line-height: 1.4;
+html {
+  line-height: 1.6;
   font-family: sans-serif; 
-  font-size: 1em;
+  font-size: 16px; 
 }
-
+  
 body {
   color: #fff;
   background-color: #300A24;
-  font-family: Consolas, monaco, monospace;
+  font-family: Consolas, Monaco, monospace;
+  margin: 0;
+  padding: 0;
 }
-
-.container {}
-
+  
+.container {
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 20px; 
+}
+  
 .title {
   text-align: center;
   letter-spacing: 0.2rem;
   font-style: italic;
+  margin: 20px 0; 
+  font-size: 1.5em; 
 }
-
+  
 .about {
-  width: 250px;
+  max-width: 600px; 
   text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.navlinks {
-  text-align: center;
-}
-
-.pro {
-  text-align: center;
-}
-
-.link {
-  color: #fff;
-  text-decoration: none;
-}
-
-.link:hover {
-  color: #8A084B;
-  text-decoration: underline;
+  margin: 20px auto; 
+  line-height: 1.8; 
 }
 
 .lines {
   width: 270px;
+  margin: 10px auto;
+  border-top: 2px solid #fff;
 }
-
-.apps{ text-align: center; }
-
-.social{
-  color: #fff;
-  text-decoration: none;
-}
-
-.social:hover{
-  color: #8A084B;
-  text-decoration: none;
-}
-
-.text-center{ text-align: center; }
+  
+.navlinks,.pro,.apps {text-align: center;margin: 10px 0;}
+  
+.link,.social {color: #fff;text-decoration: none;transition: color 0.3s ease-in-out;}
+  
+.link:hover,.social:hover {color: #8A084B;text-decoration: underline;}
+  
+.text-center {text-align: center;}
+  
